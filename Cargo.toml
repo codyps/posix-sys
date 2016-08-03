@@ -1,0 +1,12 @@
+[package]
+name = "posix-sys"
+description = "Functions provided by posix-ish systems in the standard C library"
+version = "0.0.1"
+authors = ["Cody P Schafer <dev@codyps.com>"]
+include = [ "Cargo.toml", "**/*.rs" ]
+keywords = [ "sys", "posix", "ffi", "unix", "nix" ]
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/jmesmon/posix-sys"
+
+[dependencies]
+libc = "0.2"
